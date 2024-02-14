@@ -1,0 +1,167 @@
+:root {
+    --main-bg-color: #333533;
+    --secondary-bg-color: #242423
+}
+
+@font-face {
+    font-family: 'Walsheim-Light-Oblique';
+    src: url(./assets/GT-Walsheim-Light-Oblique.otf);
+}
+@font-face {
+    font-family: 'Walsheim-Light';
+    src: url(./assets/GT-Walsheim-Light.otf);
+}
+@font-face {
+    font-family: 'Walsheim-Medium-Oblique';
+    src: url(./assets/GT-Walsheim-Medium-Oblique.otf);
+}
+@font-face {
+    font-family: 'Walsheim-Medium';
+    src: url(./assets/GT-Walsheim-Medium.otf);
+}
+@font-face {
+    font-family: 'Walsheim-Regular-Oblique';
+    src: url(./assets/GT-Walsheim-Regular-Oblique.otf);
+}
+@font-face {
+    font-family: 'Walsheim-Regular';
+    src: url(./assets/GT-Walsheim-Regular.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    grid-template-rows: minmax(120px, 10vh) 90vh;
+    grid-template-columns: 100%;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+}
+
+header {
+    grid-area: 1/1/2/2;
+    height: 120px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--secondary-bg-color);
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: minmax(304px, 50vw) minmax(400px, 50vw);
+    box-shadow: 0px 10px 16px 16px black;
+}
+
+header img {
+    grid-area: 1/1/2/2;
+    align-self: center;
+    margin-left: 10px;
+}
+
+nav {
+    max-width: 718px;
+    grid-area: 1/2/2/3;
+    display: grid;
+    min-width: 400px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: end;
+    margin-right: 50px;
+}
+
+nav button {
+    height: 60px;
+    min-width: 140px;
+    max-width: 140px;
+    background-color: transparent;
+    color: white;
+    outline: 1px solid transparent;
+    box-shadow: 0 0 1px rgba(255,255,255,0);
+    font-family: 'GT-Walsheim-Regular', monospace;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+    transform: skewX(-8deg);
+}
+
+nav button:hover {
+    transition: border .5s ease-in-out, color .5s ease-in-out, font-size .5s ease-in-out;
+    border: 1px solid #FFC117;
+    color: #FFC117;
+    font-size: 30px;
+}
+
+nav button:not(:hover) {
+    transition: border .5s ease-in-out, color .5s ease-in-out, font-size .5s ease-in-out;
+    border: 1px solid white;
+    color: white;
+    font-size: 28px;
+}
+
+nav button:active {
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    background-color: #FFC117;
+    color: black;
+}
+
+#container {
+    grid-area: 2/1/3/2;
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(304px, 20vw) minmax(980px, 80vw);
+    grid-template-rows: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(to bottom left, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5) ); 
+}
+
+#about-section {
+    grid-area: 1/1/2/2;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-wrapper {
+    align-self: center;
+    justify-self: center;
+    width: 70%;
+    color: white;
+}
+
+#about-wrapper h2 {
+    font-family: 'Walsheim-Regular';
+    font-weight: lighter;
+    margin-top: -60%;
+    max-width: 230px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+h2 span {
+    font-size: 32px;
+}
+
+.gold {
+    color: #FFC117;
+    font-weight: bold;
+    font-family: 'Walsheim-Regular-Oblique';
+    font-size: 40px;
+}
+
+#sushi-holder {
+    grid-area: 1/2/2/3;
+    min-height: 100%;
+    min-width: 100%;
+    
+}

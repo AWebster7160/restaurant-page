@@ -1,2 +1,13 @@
 import homeLoad from './home.js';
-homeLoad();
+import menuLoad from './menu.js';
+
+const home = document.querySelector('#home');
+window.onload = menuLoad();
+
+home.addEventListener('click', () => {
+    homeLoad();
+});
+
+menu.addEventListener('click', () => {
+    menuLoad();
+})

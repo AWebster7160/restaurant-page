@@ -2,10 +2,12 @@ import './styles.css'
 
 export default function homeLoad() {
     const container = document.querySelector('#container');
+    while (container.lastChild) {
+        container.removeChild(container.lastChild);
+    }
     const aboutSection = document.createElement('div');
     aboutSection.setAttribute('id', 'about-section');
     const aboutTitle = document.createElement('h2');
-    // const aboutInfo = document.createElement('p');
     const aboutWrapper = document.createElement('div');
     const conscious = document.createElement('span');
     conscious.textContent = ' conscious decisions';
@@ -28,7 +30,6 @@ export default function homeLoad() {
     container.appendChild(aboutSection);
     aboutSection.appendChild(aboutWrapper);
     aboutWrapper.appendChild(aboutTitle);
-    // aboutWrapper.appendChild(aboutInfo);
     console.log('hello world');
     const sushiHolder = document.createElement('div');
     sushiHolder.setAttribute('id', 'sushi-holder');

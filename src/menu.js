@@ -449,19 +449,19 @@ export default function menuLoad() {
     const matchaName = document.createElement('h3');
     matchaName.setAttribute('class', 'menu-name-light');
     matchaName.setAttribute('id', 'matcha-name');
-    matchaName.textContent = 'GRILLED matcha'
+    matchaName.textContent = 'MATCHA PANNA COTTA'
     matchaTitle.appendChild(matchaName);
 
     const matchaPrice = document.createElement('h3');
     matchaPrice.setAttribute('class', 'price');
     matchaPrice.setAttribute('id', 'matcha-price');
-    matchaPrice.textContent = '16'
+    matchaPrice.textContent = '9'
     matchaTitle.appendChild(matchaPrice);
 
     const matchaInfo = document.createElement('span');
     matchaInfo.setAttribute('class', 'menu-info-dark');
     matchaInfo.setAttribute('id', 'matcha-info');
-    matchaInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    matchaInfo.textContent = 'White chocolate crumb, fresh berries'
     matcha.appendChild(matchaInfo);
 
     const sesame = document.createElement('div');
@@ -476,19 +476,19 @@ export default function menuLoad() {
     const sesameName = document.createElement('h3');
     sesameName.setAttribute('class', 'menu-name-light');
     sesameName.setAttribute('id', 'sesame-name');
-    sesameName.textContent = 'GRILLED sesame'
+    sesameName.textContent = 'BLACK SESAME BROWNIE'
     sesameTitle.appendChild(sesameName);
 
     const sesamePrice = document.createElement('h3');
     sesamePrice.setAttribute('class', 'price');
     sesamePrice.setAttribute('id', 'sesame-price');
-    sesamePrice.textContent = '16'
+    sesamePrice.textContent = '10'
     sesameTitle.appendChild(sesamePrice);
 
     const sesameInfo = document.createElement('span');
     sesameInfo.setAttribute('class', 'menu-info-dark');
     sesameInfo.setAttribute('id', 'sesame-info');
-    sesameInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    sesameInfo.textContent = 'Vanilla ice cream, fresh berries, black sesame'
     sesame.appendChild(sesameInfo);
 
     const mochi = document.createElement('div');
@@ -503,18 +503,18 @@ export default function menuLoad() {
     const mochiName = document.createElement('h3');
     mochiName.setAttribute('class', 'menu-name-light');
     mochiName.setAttribute('id', 'mochi-name');
-    mochiName.textContent = 'GRILLED mochi'
+    mochiName.textContent = 'SASA MOCHI'
     mochiTitle.appendChild(mochiName);
 
     const mochiPrice = document.createElement('h3');
     mochiPrice.setAttribute('class', 'price');
     mochiPrice.setAttribute('id', 'mochi-price');
-    mochiPrice.textContent = '16'
+    mochiPrice.textContent = '12'
     mochiTitle.appendChild(mochiPrice);
 
     const mochiInfo = document.createElement('span');
     mochiInfo.setAttribute('class', 'menu-info-dark');
     mochiInfo.setAttribute('id', 'mochi-info');
-    mochiInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    mochiInfo.textContent = 'Sasa bamboo leaf, yomogi, kinako flour '
     mochi.appendChild(mochiInfo);
 }

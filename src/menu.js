@@ -301,4 +301,220 @@ export default function menuLoad() {
     tiraditoInfo.setAttribute('id', 'tiradito-info');
     tiraditoInfo.textContent = 'Aji amarillo chili tigers milk, mango, gochugaru oil, basil, sea salt'
     tiradito.appendChild(tiraditoInfo);
+
+    const maitake = document.createElement('div');
+    maitake.setAttribute('class', 'menu-item');
+    plates.appendChild(maitake);
+
+    const maitakeTitle = document.createElement('div');
+    maitakeTitle.setAttribute('class', 'menu-item-title');
+    maitakeTitle.setAttribute('id', 'maitake-title');
+    maitake.appendChild(maitakeTitle);
+
+    const maitakeName = document.createElement('h3');
+    maitakeName.setAttribute('class', 'menu-name-light');
+    maitakeName.setAttribute('id', 'maitake-name');
+    maitakeName.textContent = 'ROASTED MAITAKE'
+    maitakeTitle.appendChild(maitakeName);
+
+    const maitakePrice = document.createElement('h3');
+    maitakePrice.setAttribute('class', 'price');
+    maitakePrice.setAttribute('id', 'maitake-price');
+    maitakePrice.textContent = '14'
+    maitakeTitle.appendChild(maitakePrice);
+
+    const maitakeInfo = document.createElement('span');
+    maitakeInfo.setAttribute('class', 'menu-info-dark');
+    maitakeInfo.setAttribute('id', 'maitake-info');
+    maitakeInfo.textContent = 'Whole roasted maitake mushroom, wakame butter, chive, lemon'
+    maitake.appendChild(maitakeInfo);
+
+    const octopus = document.createElement('div');
+    octopus.setAttribute('class', 'menu-item');
+    plates.appendChild(octopus);
+
+    const octopusTitle = document.createElement('div');
+    octopusTitle.setAttribute('class', 'menu-item-title');
+    octopusTitle.setAttribute('id', 'octopus-title');
+    octopus.appendChild(octopusTitle);
+
+    const octopusName = document.createElement('h3');
+    octopusName.setAttribute('class', 'menu-name-light');
+    octopusName.setAttribute('id', 'octopus-name');
+    octopusName.textContent = 'GRILLED OCTOPUS'
+    octopusTitle.appendChild(octopusName);
+
+    const octopusPrice = document.createElement('h3');
+    octopusPrice.setAttribute('class', 'price');
+    octopusPrice.setAttribute('id', 'octopus-price');
+    octopusPrice.textContent = '24'
+    octopusTitle.appendChild(octopusPrice);
+
+    const octopusInfo = document.createElement('span');
+    octopusInfo.setAttribute('class', 'menu-info-dark');
+    octopusInfo.setAttribute('id', 'octopus-info');
+    octopusInfo.textContent = 'Roasted cauliflower steak, blistered cherry tomatoes, aji verde, chervil'
+    octopus.appendChild(octopusInfo);
+
+    const cod = document.createElement('div');
+    cod.setAttribute('class', 'menu-item');
+    plates.appendChild(cod);
+
+    const codTitle = document.createElement('div');
+    codTitle.setAttribute('class', 'menu-item-title');
+    codTitle.setAttribute('id', 'cod-title');
+    cod.appendChild(codTitle);
+
+    const codName = document.createElement('h3');
+    codName.setAttribute('class', 'menu-name-light');
+    codName.setAttribute('id', 'cod-name');
+    codName.textContent = 'MISO GLAZED BLACK COD'
+    codTitle.appendChild(codName);
+
+    const codPrice = document.createElement('h3');
+    codPrice.setAttribute('class', 'price');
+    codPrice.setAttribute('id', 'cod-price');
+    codPrice.textContent = '18'
+    codTitle.appendChild(codPrice);
+
+    const codInfo = document.createElement('span');
+    codInfo.setAttribute('class', 'menu-info-dark');
+    codInfo.setAttribute('id', 'cod-info');
+    codInfo.textContent = 'Broiled black cod, orange, ginger, green onion, yuzu miso, gochugaru oil'
+    cod.appendChild(codInfo);
+
+    const chicken = document.createElement('div');
+    chicken.setAttribute('class', 'menu-item');
+    plates.appendChild(chicken);
+
+    const chickenTitle = document.createElement('div');
+    chickenTitle.setAttribute('class', 'menu-item-title');
+    chickenTitle.setAttribute('id', 'chicken-title');
+    chicken.appendChild(chickenTitle);
+
+    const chickenName = document.createElement('h3');
+    chickenName.setAttribute('class', 'menu-name-light');
+    chickenName.setAttribute('id', 'chicken-name');
+    chickenName.textContent = 'CHICKEN KARAAGE'
+    chickenTitle.appendChild(chickenName);
+
+    const chickenPrice = document.createElement('h3');
+    chickenPrice.setAttribute('class', 'price');
+    chickenPrice.setAttribute('id', 'chicken-price');
+    chickenPrice.textContent = '12'
+    chickenTitle.appendChild(chickenPrice);
+
+    const chickenInfo = document.createElement('span');
+    chickenInfo.setAttribute('class', 'menu-info-dark');
+    chickenInfo.setAttribute('id', 'chicken-info');
+    chickenInfo.textContent = 'Crispy fried marinated chicken, dill kewpie aioli, lemon'
+    chicken.appendChild(chickenInfo);
+
+    const saba = document.createElement('div');
+    saba.setAttribute('class', 'menu-item');
+    plates.appendChild(saba);
+
+    const sabaTitle = document.createElement('div');
+    sabaTitle.setAttribute('class', 'menu-item-title');
+    sabaTitle.setAttribute('id', 'saba-title');
+    saba.appendChild(sabaTitle);
+
+    const sabaName = document.createElement('h3');
+    sabaName.setAttribute('class', 'menu-name-light');
+    sabaName.setAttribute('id', 'saba-name');
+    sabaName.textContent = 'GRILLED SABA'
+    sabaTitle.appendChild(sabaName);
+
+    const sabaPrice = document.createElement('h3');
+    sabaPrice.setAttribute('class', 'price');
+    sabaPrice.setAttribute('id', 'saba-price');
+    sabaPrice.textContent = '16'
+    sabaTitle.appendChild(sabaPrice);
+
+    const sabaInfo = document.createElement('span');
+    sabaInfo.setAttribute('class', 'menu-info-dark');
+    sabaInfo.setAttribute('id', 'saba-info');
+    sabaInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    saba.appendChild(sabaInfo);
+
+    const matcha = document.createElement('div');
+    matcha.setAttribute('class', 'menu-item');
+    dessert.appendChild(matcha);
+
+    const matchaTitle = document.createElement('div');
+    matchaTitle.setAttribute('class', 'menu-item-title');
+    matchaTitle.setAttribute('id', 'matcha-title');
+    matcha.appendChild(matchaTitle);
+
+    const matchaName = document.createElement('h3');
+    matchaName.setAttribute('class', 'menu-name-light');
+    matchaName.setAttribute('id', 'matcha-name');
+    matchaName.textContent = 'GRILLED matcha'
+    matchaTitle.appendChild(matchaName);
+
+    const matchaPrice = document.createElement('h3');
+    matchaPrice.setAttribute('class', 'price');
+    matchaPrice.setAttribute('id', 'matcha-price');
+    matchaPrice.textContent = '16'
+    matchaTitle.appendChild(matchaPrice);
+
+    const matchaInfo = document.createElement('span');
+    matchaInfo.setAttribute('class', 'menu-info-dark');
+    matchaInfo.setAttribute('id', 'matcha-info');
+    matchaInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    matcha.appendChild(matchaInfo);
+
+    const sesame = document.createElement('div');
+    sesame.setAttribute('class', 'menu-item');
+    dessert.appendChild(sesame);
+
+    const sesameTitle = document.createElement('div');
+    sesameTitle.setAttribute('class', 'menu-item-title');
+    sesameTitle.setAttribute('id', 'sesame-title');
+    sesame.appendChild(sesameTitle);
+
+    const sesameName = document.createElement('h3');
+    sesameName.setAttribute('class', 'menu-name-light');
+    sesameName.setAttribute('id', 'sesame-name');
+    sesameName.textContent = 'GRILLED sesame'
+    sesameTitle.appendChild(sesameName);
+
+    const sesamePrice = document.createElement('h3');
+    sesamePrice.setAttribute('class', 'price');
+    sesamePrice.setAttribute('id', 'sesame-price');
+    sesamePrice.textContent = '16'
+    sesameTitle.appendChild(sesamePrice);
+
+    const sesameInfo = document.createElement('span');
+    sesameInfo.setAttribute('class', 'menu-info-dark');
+    sesameInfo.setAttribute('id', 'sesame-info');
+    sesameInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    sesame.appendChild(sesameInfo);
+
+    const mochi = document.createElement('div');
+    mochi.setAttribute('class', 'menu-item');
+    dessert.appendChild(mochi);
+
+    const mochiTitle = document.createElement('div');
+    mochiTitle.setAttribute('class', 'menu-item-title');
+    mochiTitle.setAttribute('id', 'mochi-title');
+    mochi.appendChild(mochiTitle);
+
+    const mochiName = document.createElement('h3');
+    mochiName.setAttribute('class', 'menu-name-light');
+    mochiName.setAttribute('id', 'mochi-name');
+    mochiName.textContent = 'GRILLED mochi'
+    mochiTitle.appendChild(mochiName);
+
+    const mochiPrice = document.createElement('h3');
+    mochiPrice.setAttribute('class', 'price');
+    mochiPrice.setAttribute('id', 'mochi-price');
+    mochiPrice.textContent = '16'
+    mochiTitle.appendChild(mochiPrice);
+
+    const mochiInfo = document.createElement('span');
+    mochiInfo.setAttribute('class', 'menu-info-dark');
+    mochiInfo.setAttribute('id', 'mochi-info');
+    mochiInfo.textContent = 'Blistered filet of mackerel, momiji oroshi, pickled mustard seed, lemon ash, green onion'
+    mochi.appendChild(mochiInfo);
 }

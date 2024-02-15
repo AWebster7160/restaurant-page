@@ -2,6 +2,7 @@ import './styles.css'
 
 export default function homeLoad() {
     const container = document.querySelector('#container');
+    container.setAttribute('class', 'home');
     while (container.lastChild) {
         container.removeChild(container.lastChild);
     }

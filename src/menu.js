@@ -43,11 +43,11 @@ export default function menuLoad() {
     sashimiHead.setAttribute('id', 'sashimi-head');
     sashimiHead.textContent = 'SIGNATURE SASHIMI';
     specials.appendChild(sashimiHead);
-    const rollsHead = document.createElement('h2');
-    rollsHead.setAttribute('class', 'menu-head');
-    rollsHead.setAttribute('id', 'rolls-head');
-    rollsHead.textContent = 'SIGNATURE ROLLS';
-    specials.appendChild(rollsHead);
+    // const rollsHead = document.createElement('h2');
+    // rollsHead.setAttribute('class', 'menu-head');
+    // rollsHead.setAttribute('id', 'rolls-head');
+    // rollsHead.textContent = 'SIGNATURE ROLLS';
+    // specials.appendChild(rollsHead);
     const platesHead = document.createElement('h2');
     platesHead.setAttribute('class', 'menu-head');
     platesHead.setAttribute('id', 'plates-head');

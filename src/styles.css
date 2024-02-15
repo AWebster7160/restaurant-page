@@ -182,7 +182,7 @@ h2 span {
 }
 
 #container.menu div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #menu {
@@ -211,8 +211,8 @@ h2 span {
     width: 100%;
     display: grid;
     justify-content: center;
-    align-content: space-around;
-    grid-template-rows: 2% 44% 2% 44%;
+    align-content: stretch;
+    grid-template-rows: 2% 90%;
     grid-template-columns: 90%;
     background-color: #CFDBD5;
 }
@@ -220,14 +220,20 @@ h2 span {
 #sashimi {
     grid-area: 2/1/3/3;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
+    justify-content: center;
     grid-template-rows: repeat(9, 1fr);
     height: 100%;
-    width: 100%;
+    width: 470px;
 }
 
 #sashimi-head {
     grid-area: 1/1/2/2;
+    font-size: 38px;
+    color: #242423;
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-left: 20px
 }
 
 .menu-item {
@@ -241,8 +247,20 @@ h2 span {
 .menu-item-title {
     width: 100%;
     display: flex;
+    align-items: flex-end;
     flex-direction: row;
     justify-content: space-between;
+    color: #393b3a;
+}
+
+.menu-item-title h3 {
+    margin: 0;
+}
+
+.menu-info-dark {
+    color: #292929;
+    font-size: 16px;
+    text-wrap: wrap;
 }
 
 #hamachi {
@@ -281,16 +299,6 @@ h2 span {
     grid-area: 9/1/10/2;
 }
 
-#rolls-head {
-    grid-area: 3/1/4/2;
-}
-#rolls {
-    grid-area: 4/1/5/3;
-    display: grid;
-    height: 100%;
-    width: 100%;
-}
-
 #menu-right {
     height: 100%;
     width: 100%;
@@ -303,13 +311,16 @@ h2 span {
     width: 100%;
     display: grid;
     justify-content: center;
-    align-content: space-around;
+    align-content: stretch;
     grid-template-rows: 2% 56% 2% 36%;
     grid-template-columns: 90%;
 }
 
 #plates-head {
     grid-area: 1/1/2/2;
+    font-size: 38px;
+    align-self: flex-start;
+    margin-top: 30px;
 }
 
 #plates {
@@ -322,6 +333,8 @@ h2 span {
 
 #dessert-head {
     grid-area: 3/1/4/2;
+    font-size: 38px;
+    color: #242423;
 }
 
 #dessert{

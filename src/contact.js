@@ -80,8 +80,12 @@ export default function contactLoad() {
     submit.id = 'submit';
     submit.textContent = 'Submit';
     contactForm.appendChild(submit);
+    const thanks = document.createElement('h2');
+    thanks.textContent = 'We\'ll get back to you as soon as we can!';
+    email.pattern == /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     contactForm.addEventListener('submit', event => {
-        event.preventDefault();
+        event.preventDefault();  
     });
+    
 
-}
+}     

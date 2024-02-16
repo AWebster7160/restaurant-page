@@ -6,7 +6,7 @@ const home = document.querySelector('#home-btn');
 const menu = document.querySelector('#menu-btn');
 const contact = document.querySelector('#contact-btn');
 
-window.onload = contactLoad();
+window.onload = homeLoad();
 
 home.addEventListener('click', () => {
     homeLoad();

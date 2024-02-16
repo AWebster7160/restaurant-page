@@ -36,10 +36,10 @@ body {
     display: grid;
     grid-template-rows: minmax(120px, 10vh) 90vh;
     grid-template-columns: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     justify-content: start;
     align-items: center;
-    
     background-color: var(--main-bg-color);
 }
 
@@ -105,7 +105,7 @@ nav button:not(:hover) {
 }
 
 nav button:active {
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    transition: background-color .3s ease-in-out forwards, color .3s ease-in-out;
     background-color: #FFC117;
     color: black;
 }
@@ -179,10 +179,6 @@ h2 span {
     overflow-x: scroll;
     white-space: nowrap;
     background-color: #333533;
-}
-
-#container.menu div {
-    /* border: 1px solid red; */
 }
 
 #menu {
@@ -393,6 +389,7 @@ h2 span {
 }
 
 #contact-main-wrapper {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -452,6 +449,7 @@ form input {
     color: whitesmoke;
     border: none;
     padding: 8px;
+    font-size: 18px;
 }
 
 form input:focus {
@@ -469,6 +467,7 @@ form textarea {
     border: none;
     padding: 8px;
     font-family: 'Walsheim-Regular', Arial, Helvetica, sans-serif, monospace;
+    font-size: 16px;
 }
 
 form textarea:focus {
@@ -507,11 +506,11 @@ form textarea:focus {
 }
 
 #submit:active {
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out forwards;
     background-color: #FFC117;
     color: black;
 }
 
-#first-name, #last-name, label {
+#first-name, #last-name, label, #phone {
     width: 240px;
 }

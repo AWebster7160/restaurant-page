@@ -36,4 +36,6 @@ export default function homeLoad() {
     sushiHolder.setAttribute('id', 'sushi-holder');
     container.appendChild(sushiHolder);
     container.style.backgroundImage = "url('./assets/sushi.jpg')";
+    
+
 }

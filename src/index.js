@@ -1,10 +1,12 @@
 import homeLoad from './home.js';
 import menuLoad from './menu.js';
+import contactLoad from './contact.js';
 
 const home = document.querySelector('#home-btn');
 const menu = document.querySelector('#menu-btn');
+const contact = document.querySelector('#contact-btn');
 
-window.onload = menuLoad();
+window.onload = contactLoad();
 
 home.addEventListener('click', () => {
     homeLoad();
@@ -12,4 +14,8 @@ home.addEventListener('click', () => {
 
 menu.addEventListener('click', () => {
     menuLoad();
+})
+
+contact.addEventListener('click', () => {
+    contactLoad();
 })
